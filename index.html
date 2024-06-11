@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       
+
+        <div>
+            <div class="form-group">                
+                <input type="text" id="instance" name="instance" placeholder="Instance ID">
+            </div>
+
+            <div class="form-group">
+                <!--<label for="ApiTokenInstance">API Token:</label>-->
+                <input type="text" id="ApiTokenInstance" name="ApiTokenInstance" placeholder="API Token">
+            </div>
+
+            <button id="getSettings">Get Settings</button>
+            <button id="getStateInstance">Get State Instance</button>
+            
+            <div class="form-group">
+               <!-- <label for="phoneNumber">Номер телефона:</label>-->
+                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Номер телефона">
+            </div>
+
+            <div class="form-group">               
+                <input type="text" id="message" name="message" placeholder="Сообщение">
+            </div>
+            
+            
+            <button id="sendMessage">Send Message</button>
+            
+
+            <div class="form-group">
+                
+                <input type="text" id="filePhoneNumber" name="filePhoneNumber" placeholder="Номер телефона">
+            </div>
+
+            <div class="form-group">
+                
+                <input type="text" id="fileUrl" name="fileUrl" placeholder="fileUrl">
+            </div>
+
+            <button id="sendFileByUrl">Send File By URL</button>
+        </div>
+
+        <div class="form-group">
+            <label for="response">Ответ:</label>
+            <textarea id="response" name="response" rows="20"></textarea>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
